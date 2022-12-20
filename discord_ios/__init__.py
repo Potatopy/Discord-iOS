@@ -1,4 +1,4 @@
 from .identify import identify
-from discord.gateway import DiscordWebSocket
+from nextcord.gateway import DiscordWebSocket
 
 DiscordWebSocket.identify = identify
